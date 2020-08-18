@@ -13,5 +13,42 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-  background-image: url('images/bg-pattern.png');
+  background-color: yellow;
+  max-width: 850px;
+margin: 100px auto;
+
 }
+
+.input {
+  font-size: 30px;
+  width: 100%;
+  padding-left: 20px;
+  height: 85px;
+  border-radius: 5px;
+  margin: 10px 20px 0;
+}
+
+.name {
+  text-align: center;
+  font-size: 60px;
+}
+
+
+li,
+p {
+  font-size: 30px;
+  
+}
+
+.unseen {
+  display: none;
+}
+
+
+
+
+
+
+
+
+

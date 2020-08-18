@@ -1,0 +1,17 @@
+    <ul class="country">
+      {{#each countries}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+
+    <div class={{show}}>
+      <div class="block-country">
+        <p >Country: {{name}}</p>
+        <p>Capital: {{capital}}</p>
+        <p>Population: {{population}}</p>
+        <p>Languages: {{#each languages}}<span>{{this.name}}</span>&nbsp; {{/each}}</p>
+      </div>
+      <div>
+        <img src={{flag}} alt="flag" width="350" />
+      </div>
+    </div>
